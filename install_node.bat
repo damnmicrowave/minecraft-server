@@ -8,6 +8,6 @@ echo Refreshing PATH
 for /f "tokens=3*" %%A in ('reg query "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v Path') do set syspath=%%A%%B
 for /f "tokens=3*" %%A in ('reg query "HKCU\Environment" /v Path') do set userpath=%%A%%B
 set PATH=%userpath%;%syspath%
-echo Installing TCP tunneling utility
+echo Installing TCP tunnelling utility
 npm -g i telebit
 telebit tcp 25565
