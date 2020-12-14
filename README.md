@@ -10,4 +10,4 @@ If you don't want to setup Port Forwarding, you can use TCP tunnelling instead:
 TCP Tunnelling is only required for playing with friends that aren't on your local network, otherwise just put your gateway ip in the "server-ip=" property and use it to connect to your server
 
 ## Mods
-In this template Forge server is installed but not run yet. If you have any terrain-changing mods you should put them in the mods/ directory first and then start the server so the new modded world can be generated
+In this template, the Forge server is installed but not run yet. If you have any terrain-changing mods, you should put them in the mods/ directory first and then start the server, so the new modded world is generated
