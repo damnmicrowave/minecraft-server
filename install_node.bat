@@ -1,5 +1,5 @@
 @echo off
-echo Downloading Node.js installer (3MB)
+echo Downloading Node.js installer (29.1MB)
 powershell -command Invoke-WebRequest "https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi" -OutFile .\node_installer.msi
 echo Installing Node.js
 .\node_installer.msi
