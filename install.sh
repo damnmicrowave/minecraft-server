@@ -15,3 +15,4 @@ clear
 echo "Minecraft has been installed!"
 echo "Uninstalling unnecessary files... Please enter your password below:"
 sudo rm -rf /Library/Developer
+echo "Everything is done! You can close this window now"
