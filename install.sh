@@ -6,7 +6,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install java
 brew install python
 /opt/homebrew/bin/pip3 install --user --no-input picomc
-picomc account create $USER
+python3 -m picomc account create $USER
 touch /Applications/Minecraft
-(echo -e "picomc\npicomc play") > /Applications/Minecraft
+(echo "python3 -m picomc play") > /Applications/Minecraft
 chmod 700 /Applications/Minecraft
