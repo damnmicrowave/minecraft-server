@@ -9,7 +9,7 @@ brew install python
 picomc="/Users/${USER}/Library/Python/3.9/bin/picomc"
 $picomc account create $USER
 touch /Applications/Minecraft
-(echo -e 'export PATH="/Users/${USER}/.homebrew/opt/openjdk/bin:$PATH"\n${picomc} play') > /Applications/Minecraft
+(echo -e "export PATH=\"/Users/${USER}/.homebrew/opt/openjdk/bin:\$PATH\"\n${picomc} play") > /Applications/Minecraft
 chmod 700 /Applications/Minecraft
 clear
 echo "Minecraft has been installed!"
